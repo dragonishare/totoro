@@ -37,6 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * src: 组件公用工具函数
 * src/theme: 组件样式文件夹（组件所有样式统一放这里）
 * src/index.ts: 组件统一导出入口文件（整体导出，全量包）
+* scripts: 脚本文件
 
 
 ### 展示目录树结构 tree命令
