@@ -29,7 +29,7 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### 目录结构
+## 目录结构
 
 * packages: 组件源码
 * website: 原src目录，改为组件文档官网，展示示例
@@ -38,4 +38,19 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * src/theme: 组件样式文件夹（组件所有样式统一放这里）
 * src/index.ts: 组件统一导出入口文件（整体导出，全量包）
 
+
+### 展示目录树结构 tree命令
+
+mac安装tree `brew install tree`
+
+### 2.tree常用命令
+
+在终端直接执行`tree`命令，展示当前文件夹下所有的目录树结构（包含文件和文件夹以及子文件夹）
+
+* 查看帮助 `tree --help`
+* 指定层级 `tree -L 2`
+* 显示目录名称而非内容 `tree -d "src"`
+* 不显示符合范本样式的文件或目录名称 `tree -I "node_modules"`
+* 不显示符合范本样式的文件或目录名称 `tree -I "node_modules|tests"`
+* 写入指定文件，如果文件不存在自动创建，如果存在则覆盖内容 `tree -I "node_modules|test*|LICENSE|README.en.md" -L 2 > README.md`
 
