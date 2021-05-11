@@ -54,6 +54,7 @@ module.exports = {
         breaks: true,
         raw: true,
         typographer: true,
+        use: [[require("markdown-it-container"), "demo"]],
       });
   },
 };
