@@ -57,7 +57,7 @@ mac安装tree `brew install tree`
 
 ## npm包
 
-### 删除文件和文件夹 `rimraf` https://github.com/isaacs/rimraf
+### 1. 删除文件和文件夹 `rimraf` https://github.com/isaacs/rimraf
 
 **yarn 安装**
 `yarn add rimraf -D`
@@ -65,3 +65,35 @@ mac安装tree `brew install tree`
 **在`package.json scripts`中使用** 
 `"clean": "rimraf dist" //删除dist文件夹`
 
+### 2. 实现代码高亮 `highlight.js`
+
+`yarn add highlight.js -D`
+
+### 3. 解析markdown文件 `vue-markdown-loader`
+
+`yarn add vue-markdown-loader -D`
+
+```
+# vue.config.js配置
+chainWebpack: (config) => {
+  config.module
+    .rule('markdown')
+    .test(/\.md$/)
+    .use('vue-loader')
+    .loader('vue-loader')
+    .end()
+    .use('vue-markdown-loader')
+    .loader('vue-markdown-loader/lib/markdown-compiler')
+    .options({
+    preset: 'default',
+    breaks: true,
+    raw: true,
+    typographer: true,
+  })
+}
+
+# 入口文件main.ts中配置样式
+// main.ts
+import hljs from 'highlight.js';
+import 'highlight.js/styles/atom-one-light.css';
+```
