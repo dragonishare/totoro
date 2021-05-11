@@ -55,3 +55,13 @@ mac安装tree `brew install tree`
 * 不显示符合范本样式的文件或目录名称 `tree -I "node_modules|tests"`
 * 写入指定文件，如果文件不存在自动创建，如果存在则覆盖内容 `tree -I "node_modules|test*|LICENSE|README.en.md" -L 2 > README.md`
 
+## npm包
+
+### 删除文件和文件夹 `rimraf` https://github.com/isaacs/rimraf
+
+**yarn 安装**
+`yarn add rimraf -D`
+
+**在`package.json scripts`中使用** 
+`"clean": "rimraf dist" //删除dist文件夹`
+
