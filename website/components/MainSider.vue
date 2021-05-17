@@ -1,7 +1,7 @@
 <template>
   <div class="main-sider">
     sider <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/changelog">About</router-link>
   </div>
 </template>
 

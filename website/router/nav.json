@@ -1,0 +1,200 @@
+{
+  "zh-CN": [
+    {
+      "name": "更新日志",
+      "path": "/changelog"
+    },
+    {
+      "name": "开发指南",
+      "children": [
+        {
+          "name": "快速上手",
+          "path": "/quickstart"
+        },
+        {
+          "name": "从 老组件 升级",
+          "path": "/migration"
+        },
+        {
+          "name": "国际化",
+          "path": "/i18n"
+        },
+        {
+          "name": "自定义主题",
+          "path": "/theme"
+        }
+      ]
+    },
+    {
+      "name": "组件",
+      "groups": [
+        {
+          "groupName": "Basic 通用",
+          "list": [
+            {
+              "name": "Button 按钮",
+              "path": "/button"
+            }
+          ]
+        },
+        {
+          "groupName": "Layout 布局",
+          "list": [
+            {
+              "name": "Layout 布局",
+              "path": "/layout"
+            }
+          ]
+        },
+        {
+          "groupName": "Navigation 导航",
+          "list": [
+            {
+              "name": "Affix 固钉",
+              "path": "/affix"
+            },
+            {
+              "name": "NavMenu 导航菜单",
+              "path": "/menu"
+            }            
+          ]
+        },
+        {
+          "groupName": "Form 数据录入",
+          "list": [
+            {
+              "name": "Form 表单",
+              "path": "/form"
+            }
+          ]
+        },
+        {
+          "groupName": "Data 数据展示",
+          "list": [
+            {
+              "name": "Table 表格",
+              "path": "/table"
+            }
+          ]
+        },
+        {
+          "groupName": "Notice 反馈",
+          "list": [
+            {
+              "name": "Alert 警告",
+              "path": "/alert"
+            }
+          ]
+        },        
+        {
+          "groupName": "Others 其他",
+          "list": [
+            {
+              "name": "Backtop 回到顶部",
+              "path": "/backtop"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en-US": [
+    {
+      "name": "更新日志",
+      "path": "/changelog"
+    },
+    {
+      "name": "开发指南",
+      "children": [
+        {
+          "name": "快速上手",
+          "path": "/quickstart"
+        },
+        {
+          "name": "从 老组件 升级",
+          "path": "/migration"
+        },
+        {
+          "name": "国际化",
+          "path": "/i18n"
+        },
+        {
+          "name": "自定义主题",
+          "path": "/theme"
+        }
+      ]
+    },
+    {
+      "name": "组件",
+      "groups": [
+        {
+          "groupName": "Basic 通用",
+          "list": [
+            {
+              "name": "Button 按钮",
+              "path": "/button"
+            }
+          ]
+        },
+        {
+          "groupName": "Layout 布局",
+          "list": [
+            {
+              "name": "Layout 布局",
+              "path": "/layout"
+            }
+          ]
+        },
+        {
+          "groupName": "Navigation 导航",
+          "list": [
+            {
+              "name": "Affix 固钉",
+              "path": "/affix"
+            },
+            {
+              "name": "NavMenu 导航菜单",
+              "path": "/menu"
+            }            
+          ]
+        },
+        {
+          "groupName": "Form 数据录入",
+          "list": [
+            {
+              "name": "Form 表单",
+              "path": "/form"
+            }
+          ]
+        },
+        {
+          "groupName": "Data 数据展示",
+          "list": [
+            {
+              "name": "Table 表格",
+              "path": "/table"
+            }
+          ]
+        },
+        {
+          "groupName": "Notice 反馈",
+          "list": [
+            {
+              "name": "Alert 警告",
+              "path": "/alert"
+            }
+          ]
+        },        
+        {
+          "groupName": "Others 其他",
+          "list": [
+            {
+              "name": "Backtop 回到顶部",
+              "path": "/backtop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
